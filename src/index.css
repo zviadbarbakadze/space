@@ -1,0 +1,552 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+body{
+  font-size: 40px;
+ 
+ 
+ 
+  
+}
+.navigation{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: 2%;
+  margin-top: 40px;
+}
+.menu{
+  background-color: rgba(53, 53, 82,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  height: 80px;
+ 
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.5em;
+}
+a::after{
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: aliceblue;
+  display: block;
+  transition: .5s ease-in-out;
+  
+}
+a:hover::after{
+content: "";
+ height: 2px;
+ width: 100%;
+ background-color: aliceblue;
+ display: block;
+ 
+}
+a.active{
+  font-weight: bolder;
+  color: rgb(234, 241, 168);
+}
+.home{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background: url(./assets/home/background-home-desktop.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+.first-text{
+  color: aliceblue;
+  font-size: 1em;
+}
+.second-text{
+  color: white;
+  font-size: 5em;
+}
+.third-text{
+  color: blanchedalmond;
+
+  font-size: 0.5em;
+}
+.explore{
+  background-color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: mymove 2s infinite;
+  cursor: pointer;
+  font-size: 0.8em;
+  color: black;
+}
+@keyframes mymove {
+  from {background-color: rgb(247, 240, 240);}
+  to {background-color: rgba(189, 189, 177, 0.973);}
+}
+.text-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 400px;
+}
+.burger{
+ display: none;
+  width: 2em;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.close{
+display: none;
+}
+.crew{
+  background: url(./assets/crew/background-crew-desktop.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline-start: 5%;
+  
+ 
+  
+}
+.crew-main-info{
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.crew-header{
+  color: aliceblue;
+}
+
+.crew-links{
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+.crew-role{
+  color: aliceblue;
+}
+.crew-name{
+  color: aliceblue;
+  width: 60;
+}
+.bio{
+  color: aliceblue;
+  font-size: 0.5em;
+  width: 40%;
+}
+.douglas{
+  display: flex;
+}
+.douglas-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+}
+.crew-image{
+ position: absolute;
+ width: 500px;
+ bottom: 0;
+ left: 50%;
+}
+.ball{
+  background-color: aliceblue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.destination{
+  background: url(./assets/destination/background-destination-desktop.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+.header-links{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.detination-header{
+  color: aliceblue;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+.moon-image{
+ animation: myfirst 50s infinite linear;
+}
+@keyframes myfirst{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.destination-links{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.main-dest-cont{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.dest-name{
+  color: white;
+  font-size: 3em;
+  
+}
+.dest-description{
+  font-size: 0.5em;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  
+  width: 60%;
+
+}
+.dest-other{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+}
+.dest-image{
+ width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20%;
+}
+span{
+  color: aliceblue;
+}
+.distance-travel{
+  display: flex;
+ 
+  font-size: 0.5em;
+}
+.travel{
+  display: flex;
+  flex-direction: column;
+}
+.distance{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+}
+.tech{
+  background: url(./assets/technology/background-technology-desktop.jpg);
+   background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.tech-info{
+  width: 50%;
+}
+.tech-descr{
+  color: aliceblue;
+  font-size: 0.5em;
+ width: 80%;
+  margin-top: 50px;
+}
+.tech-cont{
+  display: flex;
+  width: 70%;
+  align-items: center;
+ 
+}
+.tech-links{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+}
+.ball-1{
+  background-color: aliceblue;
+  color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width:1000px){
+ .home{
+    background: url(./assets/home/background-home-tablet.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .tech-images{
+    width: 400px;
+  }
+  .crew{
+    background: url(./assets/crew/background-crew-tablet.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   justify-content: flex-end;
+   padding-top: 100px;
+   
+  }
+  .crew-image{
+    width:400px;
+  }
+  .menu{
+    width: 80%;
+  }
+
+  .header-links{
+   margin-bottom: 100px;
+   
+  }
+  .dest-description{
+    margin-bottom: 50px;
+  }
+  .main-dest-cont{
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+  }
+.moon-image{
+  width: 300px;
+}
+.dest-name{
+  font-size: 2em;
+}
+.detination-header{
+  font-size: 0.5em;
+}
+}
+@media(max-width:850px){
+  body{
+    
+    font-size: 30px;
+  }
+ 
+  .tech-cont{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .tech-images{
+    width: 300px;
+  }
+  .tech{
+    flex-direction: column-reverse;
+    padding-top: 100px;
+    
+  }
+  .tech-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+  }
+  .tech-descr{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 0.6em;
+  }
+  .crew{
+    background: url(./assets/crew/background-crew-mobile.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+  }
+  .douglas-info{
+    height: 300px;
+  }
+ 
+  .douglas-info{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+.crew-image{
+  left:0;
+  width: 300px;
+}
+.crew{
+  flex-direction: column-reverse;
+  align-items: center;
+}
+  .home{
+    background: url(./assets/home/background-home-mobile.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  }
+  .text-cont{
+    margin-top: 150px;
+  }
+  .menu{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 50;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+    flex-direction: column;
+    gap:1.5rem;
+    background-color:rgb(30, 21, 39);
+    transition: 1s;
+    transform:translateX(-100vh);
+   
+  }
+  .close{
+   display: block;
+   cursor: pointer;
+   position: absolute;
+   top:3%;
+   right: 3%;
+   
+   }
+  .responsive-nav{
+    transform: none;
+  }
+  .explore{
+    width: 150px;
+    height: 150px;
+  }
+  .text-cont{
+    height: 400px;
+  }
+  .home{
+    flex-direction: column;
+  }
+  .burger{
+  display: block;
+  }
+}
+@media(max-width:500px){
+  body{
+    font-size: 20px;
+  }
+  .tech-images{
+    width: 300px;
+  }
+  .tech{
+    flex-direction: column-reverse;
+  }
+  .tech-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+  }
+  .tech-descr{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+  }
+  .third-text{
+    font-size: 0.8em;
+  }
+  .explore{
+    font-size: 1em;
+  }
+  .third-text{
+    font-size: 1em;
+  }
+  .menu{
+    font-size: 2em;
+  }
+ .header-links{
+  flex-direction: column-reverse;
+  align-items: center;
+ }
+ .destination-links{
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  width: 80%;
+}
+.detination-header{
+  font-size: 1em;
+} .douglas-info{
+  height: 250px;
+  justify-content: space-around;
+}
+.bio{
+  font-size: 0.7em;
+}
+.tech-images{
+  width: 250px;
+  margin-bottom: 20px;
+}
+.tech-descr{
+  width: 120%;
+}
+}
+@media(max-width:350px){
+  body{
+    font-size: 16px;
+  }
+  .dest-description{
+    font-size: 0.8em;
+  }
+  .explore{
+    font-size: 1em;
+  }
+  .third-text{
+    font-size: 1em;
+  }
+  .moon-image{
+    width:200px;
+  }
+  .crew-image{
+    width: 200px;
+  }
+  .bio{
+    font-size: 0.9em;
+  }
+  .douglas-info{
+    height: 300px;
+    justify-content: space-around;
+  }
+  .tech-images{
+    width: 250px;
+    margin-bottom: 20px;
+  }
+}
