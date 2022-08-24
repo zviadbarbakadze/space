@@ -5,8 +5,8 @@ export default function Capsule() {
   return (
     <div className="tech-cont">
     <div className="tech-info">
-    <span>{data.technology[1].name}</span>
-    <p className='tech-descr'>{data.technology[1].description}</p>
+    <span>{data.technology[2].name}</span>
+    <p className='tech-descr'>{data.technology[2].description}</p>
     </div>
     <div className="tech-image">
     <img src={space} alt="" className="tech-images"/>

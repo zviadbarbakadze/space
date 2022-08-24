@@ -13,9 +13,9 @@ export default function Nav() {
         </div>
         <div className="menu" ref={navRef}>
           <NavLink to="space">00 HOME</NavLink>
-          <NavLink to="destination">01 DESTINATION</NavLink>
-          <NavLink to="crew">02 CREW</NavLink>
-          <NavLink to="technology">03 TECHNOLOGY</NavLink>
+          <NavLink to="space/destination">01 DESTINATION</NavLink>
+          <NavLink to="space/crew">02 CREW</NavLink>
+          <NavLink to="space/technology">03 TECHNOLOGY</NavLink>
           <img src={close} alt="" onClick={showNavbar} className='close' />
         </div>
         <div className="burger" >
