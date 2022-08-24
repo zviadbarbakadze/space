@@ -573,8 +573,17 @@ span{
   .explore{
     font-size: 1em;
   }
-  .third-text{
+  .text-cont{
+    height: 150px;
+  }
+  .first-text{
     font-size: 1em;
+  }
+  .second-text{
+    font-size: 1em;
+  }
+  .third-text{
+    font-size: 0.5em;
   }
   .moon-image{
     width:200px;
