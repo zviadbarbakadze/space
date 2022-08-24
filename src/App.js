@@ -37,20 +37,20 @@ function App() {
    
       <Routes>
         <Route path="space"element={<Home/>}/>
-        <Route path="space/technology"element={<Technology/>}>
+        <Route path="technology"element={<Technology/>}>
           <Route index element={<Launch/>}/>
           <Route path='launch' element={<Launch/>}/>
           <Route path='spaceport' element={<Spaceport/>}/>
           <Route path='capsule' element={<Capsule/>}/>
         </Route>
-        <Route path="space/crew"element={<Crew/>}>
+        <Route path="crew"element={<Crew/>}>
           <Route index element={<Douglas/>}/>
           <Route path="douglas" element={<Douglas/>}/>
           <Route path="mark" element={<Mark/>}/>
           <Route path="victor" element={<Victor/>}/>
           <Route path="anousheh" element={<Anousheh/>}/>
         </Route>
-        <Route path="space/destination"element={<Destination/>}>
+        <Route path="destination"element={<Destination/>}>
           <Route index element={<Moon/>}/>
           <Route path="moon" element={<Moon/>}/>
           <Route path="mars" element={<Mars/>}/>
