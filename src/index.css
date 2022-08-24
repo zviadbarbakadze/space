@@ -11,6 +11,9 @@ body{
  
   
 }
+.tech-images{
+  width: 80%;
+}
 .navigation{
   position: fixed;
   width: 100%;
@@ -130,6 +133,7 @@ display: none;
  
  display: flex;
  flex-direction: column;
+
  justify-content: space-around;
 }
 
@@ -147,7 +151,7 @@ display: none;
 }
 .crew-name{
   color: aliceblue;
-  width: 60;
+ 
 }
 .bio{
   color: aliceblue;
@@ -161,13 +165,13 @@ display: none;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 400px;
+  height: 350px;
 }
 .crew-image{
  position: absolute;
- width: 500px;
+ width: 25%;
  bottom: 0;
- left: 50%;
+ left: 70%;
 }
 .ball{
   background-color: aliceblue;
@@ -195,11 +199,12 @@ display: none;
 }
 .detination-header{
   color: aliceblue;
-  font-size: 1em;
+  font-size: 0.5em;
   margin-bottom: 20px;
 }
 .moon-image{
  animation: myfirst 50s infinite linear;
+ width: 300px;
 }
 @keyframes myfirst{
   0%{
@@ -224,11 +229,11 @@ display: none;
 }
 .dest-name{
   color: white;
-  font-size: 3em;
+  font-size: 1.5em;
   
 }
 .dest-description{
-  font-size: 0.5em;
+  font-size: 0.4em;
   color: aliceblue;
   display: flex;
   align-items: center;
@@ -240,7 +245,7 @@ display: none;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 400px;
+  height: 300px;
 }
 .dest-image{
  width: 100%;
@@ -278,7 +283,7 @@ span{
    
 }
 .tech-info{
-  width: 50%;
+  width: 80%;
 }
 .tech-descr{
   color: aliceblue;
@@ -314,9 +319,11 @@ span{
     background-size:cover;
     background-repeat: no-repeat;
   }
-  .tech-images{
-    width: 400px;
-  }
+ 
+    .tech-images{
+      width: 60%;
+    }
+ 
   .crew{
     background: url(./assets/crew/background-crew-tablet.jpg);
     background-size:cover;
@@ -326,7 +333,7 @@ span{
    
   }
   .crew-image{
-    width:400px;
+    width:25%;
   }
   .menu{
     width: 80%;
@@ -343,10 +350,10 @@ span{
     width: 70%;
     flex-direction: column;
     align-items: center;
-    height: 50%;
+    height: 30%;
   }
 .moon-image{
-  width: 300px;
+  width: 200px;
 }
 .dest-name{
   font-size: 2em;
@@ -360,6 +367,12 @@ span{
     
     font-size: 30px;
   }
+  .bio{
+    width: 80%;
+  }
+  .main-dest-cont{
+    height: 40%;
+  }
  
   .tech-cont{
     display: flex;
@@ -367,7 +380,7 @@ span{
     justify-content: space-around;
   }
   .tech-images{
-    width: 300px;
+    width: 200px;
   }
   .tech{
     flex-direction: column-reverse;
@@ -403,7 +416,7 @@ span{
   }
 .crew-image{
   left:0;
-  width: 300px;
+  width: 25%;
 }
 .crew{
   flex-direction: column-reverse;
@@ -416,7 +429,16 @@ span{
     
   }
   .text-cont{
-    margin-top: 150px;
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .third-text{
+    font-size: 0.8em;
+    width: 80%;
   }
   .menu{
     position:fixed;
@@ -450,9 +472,7 @@ span{
     width: 150px;
     height: 150px;
   }
-  .text-cont{
-    height: 400px;
-  }
+
   .home{
     flex-direction: column;
   }
@@ -464,9 +484,18 @@ span{
   body{
     font-size: 20px;
   }
-  .tech-images{
-    width: 300px;
+  .crew-image{
+    width:35%;
   }
+  .moon-image{
+    width: 200px;
+  }
+ 
+  .dest-description{
+    width: 100%;
+  }
+
+
   .tech{
     flex-direction: column-reverse;
   }
@@ -481,8 +510,16 @@ span{
     margin-bottom: 20px;
     font-size: 0.8em;
   }
+  .text-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
   .third-text{
     font-size: 0.8em;
+    width: 80%;
   }
   .explore{
     font-size: 1em;
@@ -512,11 +549,18 @@ span{
   font-size: 0.7em;
 }
 .tech-images{
-  width: 250px;
+ width: 200px;
   margin-bottom: 20px;
 }
 .tech-descr{
   width: 120%;
+}
+.douglas-info{
+  margin-top: 50px;
+ 
+}
+.bio{
+  width: 80%;
 }
 }
 @media(max-width:350px){
@@ -542,11 +586,14 @@ span{
     font-size: 0.9em;
   }
   .douglas-info{
-    height: 300px;
-    justify-content: space-around;
+    margin-top: 50px;
+   
   }
   .tech-images{
-    width: 250px;
+    width: 200px;
     margin-bottom: 20px;
+  }
+  .crew-image{
+    width:35%;
   }
 }
