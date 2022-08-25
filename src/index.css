@@ -484,6 +484,26 @@ span{
   body{
     font-size: 20px;
   }
+ 
+  .text-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+  }
+  .first-text{
+    font-size: 0.5em;
+  }
+  .second-text{
+    font-size: 1em;
+  }
+
+  .third-text{
+    font-size: 0.5em;
+    width: 80%;
+  }
   .crew-image{
     width:35%;
   }
@@ -510,23 +530,12 @@ span{
     margin-bottom: 20px;
     font-size: 0.8em;
   }
-  .text-cont{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .third-text{
-    font-size: 0.8em;
-    width: 80%;
-  }
+
+
   .explore{
     font-size: 1em;
   }
-  .third-text{
-    font-size: 1em;
-  }
+
   .menu{
     font-size: 2em;
   }
