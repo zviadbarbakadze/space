@@ -371,7 +371,7 @@ span{
     width: 80%;
   }
   .main-dest-cont{
-    height: 40%;
+    height: 30%;
   }
  
   .tech-cont{
@@ -508,11 +508,23 @@ span{
     width:35%;
   }
   .moon-image{
-    width: 200px;
+    width: 150px;
   }
  
   .dest-description{
     width: 100%;
+  }
+  .destination-links{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    width: 80%;
+  }
+  .detination-header{
+    font-size: 0.5em;
+  } 
+  .dest-name{
+  font-size: 1em;
   }
 
 
@@ -543,14 +555,8 @@ span{
   flex-direction: column-reverse;
   align-items: center;
  }
- .destination-links{
-  margin-bottom: 20px;
-  font-size: 1.5em;
-  width: 80%;
-}
-.detination-header{
-  font-size: 1em;
-} .douglas-info{
+
+.douglas-info{
   height: 250px;
   justify-content: space-around;
 }
