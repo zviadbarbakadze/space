@@ -505,7 +505,7 @@ span{
     width: 80%;
   }
   .crew-image{
-    width:35%;
+    width:30%;
   }
   .moon-image{
     width: 150px;
@@ -531,17 +531,14 @@ span{
   .tech{
     flex-direction: column-reverse;
   }
+
   .tech-links{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 200px;
   }
-  .tech-descr{
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 0.8em;
-  }
+ 
 
 
   .explore{
@@ -565,17 +562,30 @@ span{
 }
 .tech-images{
  width: 200px;
+ height: 150px;
+ margin-top: 20px;
   margin-bottom: 20px;
 }
 .tech-descr{
-  width: 120%;
+  width: 100%;
+  font-size: 0.5em;
 }
+
 .douglas-info{
   margin-top: 50px;
  
 }
 .bio{
-  width: 80%;
+  width: 90%;
+}
+.crew-name{
+  font-size: 1em;
+}
+.crew-header{
+  font-size: 0.5em;
+}
+.crew-role{
+  font-size: 0.6em;
 }
 }
 @media(max-width:350px){
