@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/space/static/css/main.184135eb.css",
+    "main.css": "/space/static/css/main.807cd24d.css",
     "main.js": "/space/static/js/main.76470da8.js",
     "static/media/image-victor-glover.png": "/space/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/space/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
@@ -24,11 +24,11 @@
     "static/media/logo.svg": "/space/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/space/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/space/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.184135eb.css.map": "/space/static/css/main.184135eb.css.map",
+    "main.807cd24d.css.map": "/space/static/css/main.807cd24d.css.map",
     "main.76470da8.js.map": "/space/static/js/main.76470da8.js.map"
   },
   "entrypoints": [
-    "static/css/main.184135eb.css",
+    "static/css/main.807cd24d.css",
     "static/js/main.76470da8.js"
   ]
 }
